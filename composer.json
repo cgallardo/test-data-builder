@@ -1,0 +1,27 @@
+{
+    "name": "cgallardo/test-data-builder",
+    "description": "Workshop test data builders",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Carlos Gallardo",
+            "email": "c.gallardosalas@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Bookings\\": "src"
+        }
+    },
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": ">=4.8 < 6.0"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "BookingsTests\\": "tests"
+        }
+    }
+}
